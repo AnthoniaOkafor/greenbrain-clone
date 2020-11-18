@@ -1,0 +1,22 @@
+.navbar {
+    background-color: white !important;
+}
+
+.jumbotron {
+    background-image: url(/images/pattern-background.jpg);
+    
+}
+
+.inLine {
+    font-size: 18px;
+}
+
+.imgDiv >img {
+    margin: 0 auto;
+    display: block;
+}
+
+.fa-check {
+    color: red;
+    margin-right: 4px;
+}
