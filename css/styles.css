@@ -54,7 +54,8 @@
 }
 
 .btn-green {
-    background-color: #219988
+    background-color: #219988;
+    font-size: 13px;
 }
 
 .text-div {
@@ -64,11 +65,16 @@
 
 .footer {
 background: linear-gradient(24deg,#40514e,#40514e 50%,#219988);
+/*padding: 40px 10px 10px 85px;*/
+font-size: 13px;
 }
 
-/*
-@media (min-width: 740px) {
-    .text-div {
-        width: 30 !important   }
+.bigger {
+    font-size: 14px;
 }
-*/
+
+
+@media (max-width: 740px) {
+    .small-header {
+        font-size: 18px;   }
+}
