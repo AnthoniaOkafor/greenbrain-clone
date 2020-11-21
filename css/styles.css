@@ -28,3 +28,27 @@
 .card > p {
     font-size: 14px;
 }
+
+.tiles h1 {
+    font-size: 3.0rem;
+}
+
+.pink {
+    color: #fe7e8a;
+}
+
+.gold {
+    color: #ebc97a;
+}
+
+.dk-green {
+    color: #4e6532;
+}
+
+.lt-green {
+    color: #219988;
+}
+
+.upload {
+    background: #E4F9F5;
+}
