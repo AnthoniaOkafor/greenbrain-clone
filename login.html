@@ -13,40 +13,46 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="row contained m-4">
+        <div class="row justify-content-center mt-5">
     
-                <div class="col-7 ">
-                    <h3>Sign In</h3>
-                </div>
-                <div class="col-7">
+                <div class="col col-md-4 contained">
+                    <h3 class="text-center">Sign In</h3>
                         <form>
-                            <div class="input-group input-group mb-3">
+                            <div class="input-group input-group my-4">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text">
                                     <i class="far fa-envelope"></i>
                                     </span>
                                 </div>
-                                <input type="text" class="form-control" placeholder="Username or Email">
+                                <input type="text" class="form-control m-1" placeholder="Username or Email">
                             </div>
 
-                            <div class="input-group input-group mb-3">
+                            <div class="input-group input-group mb-4">
                                 <div class="input-group-prepend">
                                 <span class="input-group-text">
                                     <i class="fas fa-key"></i>
                                 </span>
                                 </div>
-                                <input type="password" class="form-control" placeholder="password">
+                                <input type="password" class="form-control m-1" placeholder="password">
                             </div>
-
-                            <input type="submit" value="Submit" class="btn btn-primary btn-block btn-lg">
+                            <div class="mb-4">
+                            <input type="submit" value="Login" class="btn greenish btn-block btn-lg text-white m-1">
+                            </div>
                         </form>
-                </div>
-                        
-                        <div class="col-7">
-                            <p class="text">
-                            New to greenbrain? <a href="#">Sign Up Here</a>
-                            </p>
+                        <div class="row greyish">
+                                <div class="col-12">
+                                        <p class="text text-right">
+                                        New to Greenbrain? <a href="#" class="text-dark">Sign Up Here</a>
+                                        </p>
+                                </div>
                         </div>
+
+                        <footer class="loginFooter text-right p-4">
+                            <a href="#" class="text-dark">Forgot Password</a>
+                            
+
+                        </footer>
+            </div>
         </div>
     </div>
                     
