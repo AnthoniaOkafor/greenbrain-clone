@@ -1,0 +1,45 @@
+.navbar {
+    background-color: white !important;
+    border-bottom: 1px solid #eeeeee;   
+}
+
+
+.materials {
+border-bottom: 1px solid #eeeeee;
+}
+
+.materials > a {
+    text-decoration: none;
+}
+
+.materials:hover {
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+}
+
+.materials:active {
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+.materials > a:active {
+    color: green;
+}
+
+.card-body {
+    font-size: 13px;
+}
+
+.small {
+    display: inline-block;
+    font-size: 10px
+}
+
+.row {
+    margin-top: 15px
+}
+
+.filter > .col > button {
+    font-size: 13px;
+    background: white;
+}

@@ -29,7 +29,9 @@ form > div {
 .form-control {
     background-color: rgb(218, 213, 213);
     border: none;  
+    border-radius: 0;
 }
+
 
 .col-form-label > i {
     color: rgb(247, 70, 70);
